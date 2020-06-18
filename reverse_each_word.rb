@@ -14,6 +14,7 @@ def reverse_each_word(sentence)
     p the_backward_sentencea.chop
 
     the_backward_sentenceb = ""
+    
     words.collect do | word |
 
         the_backward_sentenceb << word.reverse + " " 
